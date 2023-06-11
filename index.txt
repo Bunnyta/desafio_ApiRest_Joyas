@@ -1,0 +1,8 @@
+ precio_max http://localhost:3000/joyas?filters[precio][$gt]=25000
+
+precio_min http://localhost:3000/joyas?filters[precio][$lt]=10000
+
+filtrar por metal http://localhost:3000/joyas?filters[precio][$lt]=10000
+
+filtrar por categoria http://localhost:3000/joyas?filters[inventario.categoria][$eq]=aros
+
